@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.time-wrapper{
+    display: flex;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    width: 345px;
+    margin-top: 25px;
+    border-radius: 3px;
+    background-color: rgb(23, 24, 24);
+    cursor: pointer;
+}
+
+.time{
+    display: flex;
+    font-size: 50px;
+}
+
+.time-zone{
+    font-size: 50px;
+    padding-left: 15px;
+}
